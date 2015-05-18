@@ -1,0 +1,31 @@
+package cryptography;
+
+public class filename implements basicAlgorithm {
+	// private variables
+
+	// constructor
+	public numberFactorization() {
+
+	}	
+	
+	@Override
+	public void showMsg(String aMsg, boolean newLine) {
+		// TODO Auto-generated method stub
+		if(newLine)
+			System.out.println(aMsg);
+		else
+			System.out.print(aMsg);
+				
+	}
+
+	@Override
+	public void showMsg(double aMsg, boolean newLine) {
+		// TODO Auto-generated method stub
+		if(newLine)
+			System.out.println(aMsg);
+		else
+			System.out.print(aMsg);
+				
+	}
+	
+}
